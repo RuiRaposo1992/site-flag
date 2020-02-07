@@ -1,3 +1,6 @@
+/*----------------------------------------------------*/
+/*--------------------Main Header --------------------*/
+/*----------------------------------------------------*/
 
 
 header {
@@ -54,7 +57,7 @@ header {
 
 .headersearch input {
     width: 180px;
-    padding: 10px 15px;
+    padding: 15px 15px;
 }
 
 .headersearch div {
@@ -69,4 +72,27 @@ header {
 .headersearch button {
     border: 2px solid rgb(94, 94, 94);
     margin-left: 10px;
+}
+
+/*----------------------------------------------------*/
+/*--------------------Main NAV -----------------------*/
+/*----------------------------------------------------*/
+nav{
+    background-color: rgb(52, 51, 51);
+    padding: 5px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li:first-child{
+    margin-right: 200px;
+}
+
+nav ul a {
+    padding: 0 15px;
+    text-decoration: none;
+    color: rgb(227, 99, 2);
 }
