@@ -188,6 +188,10 @@ nav ul a {
 /*----------------------------------------------------*/
 /*--------------------MAIN----------------------------*/
 /*----------------------------------------------------*/
+.coluna2 {
+    width: 70%;
+}
+
 .cursos-table{
     margin-top: 30px;
     text-align: left;
@@ -207,4 +211,8 @@ nav ul a {
 
 .cabecalhotab th{
     padding: 5px;
+}
+
+.cursos-table td:first-child {
+    color: rgb(227, 99, 2);
 }
