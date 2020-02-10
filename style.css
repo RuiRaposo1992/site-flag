@@ -153,3 +153,34 @@ nav ul a {
     text-decoration: none;
     color: rgb(227, 99, 2);
 }
+
+/*----------------------------------------------------*/
+/*--------------------SLIDER--------------------------*/
+/*----------------------------------------------------*/
+
+.slider{
+    position: relative;
+    height: 380px;
+    width: 100%;
+}
+
+.slider img{
+    width: 100%;
+}
+
+.slider svg{
+    position: absolute;
+    margin-top: 100px;
+    font-size: 50px;
+    background-color: #333;
+    color: rgb(215, 215, 215);
+    padding: 5px 10px;
+}
+
+.slider svg:first-child{
+    left: 0px;
+}
+
+.slider svg:last-child{
+    right: 0px;
+}
