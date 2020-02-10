@@ -160,8 +160,8 @@ nav ul a {
 
 .slider{
     position: relative;
-    height: 380px;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .slider img{
@@ -183,4 +183,28 @@ nav ul a {
 
 .slider svg:last-child{
     right: 0px;
+}
+
+/*----------------------------------------------------*/
+/*--------------------MAIN----------------------------*/
+/*----------------------------------------------------*/
+.cursos-table{
+    margin-top: 30px;
+    text-align: left;
+}
+
+.cursos-table caption{
+    background-color: rgb(227, 99, 2);
+    color: #FFF;
+    padding: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.cabecalhotab{
+    background-color: lightgrey;
+}
+
+.cabecalhotab th{
+    padding: 5px;
 }
