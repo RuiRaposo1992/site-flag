@@ -140,11 +140,12 @@ nav{
 
 nav ul {
     display: flex;
+    justify-content: space-between;
     list-style: none;
 }
 
-nav ul li:first-child{
-    margin-right: 200px;
+nav ul div:last-child {
+    display: flex;
 }
 
 nav ul a {
